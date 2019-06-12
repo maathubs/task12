@@ -1,0 +1,77 @@
+.squareContainer {
+    width: 80%;
+	/* margin: 21px; */
+	position:absolute;
+	/* position:sticky; */
+
+}
+
+.squareContainer .ladders {
+    
+	position: absolute;
+	/* position:sticky; */
+	background: rgba(255,255,255,0.05);
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 200;
+}
+.squareContainer .ladders .ladder {
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	background: #000;
+	width: 60px;
+	margin: 15px;
+	background: url('/images/ladder.png') repeat-y; 
+	background-position: center;
+}
+.squareContainer .snakes {
+	position: absolute;
+	/* position:sticky; */
+	background: rgba(255,255,255,0.05);
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 200;
+}
+.squareContainer .snakes .snake {
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	background: #000;
+	width: 60px;
+	margin: 15px;
+	background: url('/images/snake.png') repeat-y; 
+	background-position: center;
+}
+.rollDice {
+	/* display: inline-block; */
+	/* margin-left: 10px; */
+	margin: 30px;
+	float:right;
+}
+.roundButton {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /* margin: 2px; */
+    clear: both;
+    border: 1px solid blue;
+    float: right;
+    position: absolute;
+    /* bottom: -22px; */
+    /* top: 1013px;
+    left: 18px; */
+}
+
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center; 
+}
+
+.flex.row {
+		flex-direction: row;
+		flex-wrap: wrap
+}

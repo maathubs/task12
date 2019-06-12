@@ -1,0 +1,22 @@
+.square {
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; */
+    background-color:teal;
+    border: 1px solid black;
+    float: left;
+}
+
+.square .tile-number {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-left: 5px;
+}
+span.start {
+    display: inherit;
+    vertical-align: center;
+    position: absolute;
+    left: 22px;
+    font-size: 21px;
+}
